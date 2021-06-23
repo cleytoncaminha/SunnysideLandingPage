@@ -1,0 +1,57 @@
+footer{
+    background-color: #89cec0;
+    padding: 5%;
+    font-family: 'Barlow', sans-serif; 
+    color: hsl(168, 39%, 29%);
+}
+.footersunny h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Barlow', sans-serif; 
+}
+
+.footerlist{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-content: center;
+     
+}
+
+.footerlist li{
+    padding: 5%;
+    font-size:18px;
+    font-family: 'Barlow', sans-serif; 
+
+}
+.contact{
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+}
+.contact a{padding: 2%;}
+
+.attribution{
+    text-align: center;
+    align-content: center;
+}
+.attribution a{
+    text-decoration: underline;
+    
+}
+.images img{
+    width: 25%;
+    height: 25%;
+}
+
+@media screen and (max-width: 700px){
+    .images{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .images img{
+        width: 100%;
+        height: 100%;
+    }
+    
+}

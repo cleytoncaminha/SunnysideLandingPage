@@ -1,0 +1,115 @@
+.clienttestimonials{
+text-align: center;
+align-self: center;
+margin-top: 10%;
+color: gray;
+font-size: 15px;
+letter-spacing: 0.5vw;
+}
+.testimonials{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    
+}
+.client{
+    display: flex;
+    flex-direction: column;
+    width: 28vw;
+    height: 70vh;
+    align-content: center;
+    justify-content: center;
+    margin-left: 3%;
+}
+.client img{
+    align-self: center;
+    border-radius: 50%;
+}
+.testimonial{
+    margin-top: 20%;
+    margin-bottom: 10%;
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    color: gray;
+    line-height: 200%;
+}
+
+.name{
+    margin-top: 20%;
+    text-align: center;
+    align-self: center;
+    font-size: 20px;
+}
+.name p{
+    margin-top: 5%;
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.63);
+}
+.images{
+    display: flex;
+}
+
+
+@media screen and (max-width: 700px){
+
+    .clienttestimonials{
+        text-align: center;
+        align-self: center;
+        margin-top: 15%;
+        color: gray;
+        font-size: 15px;
+        letter-spacing: 0.5vw;
+        
+        }
+        .testimonials{
+            display: block;
+            margin-top: 15%;
+            justify-content: center;
+            margin-right: 5%;
+            
+        }
+        .client{
+            display: block;
+            flex-direction: column;
+            width: 100%;
+            align-content: center;
+            justify-content: center;
+            margin-left: 3%;
+        }
+        .client img{
+            align-self: center;
+            border-radius: 50%;
+            margin-left: 40%;
+        }
+        .testimonial{
+            margin-top: 20%;
+            margin-bottom: 10%;
+            font-size: 18px;
+            font-family: 'Barlow', sans-serif;
+            text-align: center;
+            color: gray;
+            line-height: 200%;
+            box-sizing: border-box;
+        }
+        
+        .name{
+            margin-top: 20%;
+            text-align: center;
+            align-self: center;
+            font-size: 20px;
+        }
+        .name p{
+            margin-top: 5%;
+            font-size: 15px;
+            color: rgba(128, 128, 128, 0.63);
+        }
+        .images{
+            display: flex;
+        }
+        
+
+
+
+
+}

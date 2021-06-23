@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url("../images/desktop/image-header.jpg");
+    box-sizing: border-box;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 80%; 
+    color: white;
+    padding: 3%;
+    font-family: 'Barlow', sans-serif;
+   
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menu{display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menu li{
+    font-size: 18px;
+    padding: 10px;
+   margin-left: 3%;
+}
+.contact1{
+    font-size: 18px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 1.1%;
+   
+}
+
+.contact1 a{
+    text-decoration: none;
+    color: black;
+   
+}
+.menu li:hover{
+    background-color: rgba(255, 255, 255, 0.432);
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.titulohead{
+    padding: 3%;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.creativeHead{
+   font-size: 50px;
+   margin-top: 3%;
+   letter-spacing: 1vw;
+   font-family: 'Fraunces', serif;
+   text-align: center;
+}
+
+.arrow{
+   margin-left: 49%;
+margin-top: 5%;}
+#menubtn{
+    position: absolute;
+    margin-left: 85vw;
+    background-color: rgba(0, 0, 255, 0);
+    display: none;
+}
+@media screen and (max-width: 700px){
+
+    .menu{
+        display: none;
+    }
+    #menubtn{
+        display: block;
+        border-style: none;
+    }
+    .menumobile{
+        display: block;
+        background-color: white;
+        color:rgb(158, 158, 158);
+        position: absolute;
+        margin-left: -60vw;
+        width: 60%;
+        
+        margin-top: 10vw;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        padding: 24px;
+    }
+    .contact1{
+        background-color: yellow;
+        width: 100%;
+        
+    }
+}

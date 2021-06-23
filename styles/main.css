@@ -1,0 +1,209 @@
+*{
+    font-family: 'Fraunces', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.info{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+    }
+
+    .infostand{
+        display: flex;
+        align-items: stretch;
+        }
+
+    .info img{
+        width: 50%;
+          height: 50%;
+          
+    }
+
+    .infostand img{
+        width: 50%;
+          height: 50%;
+    }
+
+    .text{
+        align-self: center;
+        font-family: 'Fraunces', serif;
+        color: hsl(210, 4%, 67%);
+        margin-left: 10%;
+        margin-right: 4%;
+       
+    }
+    .title{
+    font-size: 30px;
+    color: hsl(212, 27%, 19%);
+    margin-bottom: 5%;
+    }
+    
+        
+    .learn{
+        margin-top: 10%;
+        margin-left: 3%;
+        color: hsl(212, 27%, 19%);
+        border-bottom: hsla(51, 100%, 85%, 0.795) solid 8px;
+        width: 25%;
+        border-radius: 4px;
+        
+    }
+    
+    .learn1{
+        margin-top: 10%;
+        margin-left: 3%;
+        color: hsl(212, 27%, 19%);
+        border-bottom: hsla(7, 91%, 68%, 0.473) solid 8px;
+        width: 25%;
+        border-radius:4px;
+    }
+    
+    .service{
+        display: flex;
+        
+    }
+    .design{
+        background-image: url("../images/desktop/image-graphic-design.jpg");
+        background-size: cover;
+        font-size: 18px;
+        color: hsl(167, 40%, 24%);
+        width: 50vw;
+        height: 50vh;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        
+    }
+    
+    
+    .photography{
+        background-image: url("../images/desktop/image-photography.jpg");
+        background-size: cover;
+        font-size: 18px;
+        color: hsl(198, 62%, 26%);
+        width: 50vw;
+        height: 50vh;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;}
+        
+
+   .destext{
+       text-align: center;
+       margin-bottom: 3%;
+       width: 70%;
+       
+
+   }
+
+   .phototext{
+    text-align: center;
+    margin-bottom: 3%;
+    width: 70%;
+    
+
+}
+
+.destext h3{
+    font-size: 25px;
+    margin-bottom: 3%;
+}
+.phototext h3{
+    font-size: 25px;
+    margin-bottom: 3%;
+}
+
+
+@media screen and (max-width: 700px){
+
+    .info{
+        display: block;
+        }
+    
+        .infostand{
+            display: block;
+            }
+    
+        .info img{
+            width: 100%;
+              
+              
+        }
+    
+        .infostand img{
+            width: 100%;
+             
+        }
+    
+        .text{
+            align-self: center;
+            font-family: 'Fraunces', serif;
+            color: hsl(210, 4%, 67%);
+            margin-left: 10%;
+            margin-right: 4%;
+           
+        }
+        .title{
+        font-size: 30px;
+        color: hsl(212, 27%, 19%);
+        margin-bottom: 5%;
+        }
+        .service{
+            display: block;
+            
+            
+        }
+        .design{
+            background-image: url("../images/desktop/image-graphic-design.jpg");
+            background-size: cover;
+            font-size: 18px;
+            color: hsl(167, 40%, 24%);
+            width: 100%;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            
+        }
+        
+        
+        .photography{
+            background-image: url("../images/desktop/image-photography.jpg");
+            background-size: cover;
+            font-size: 18px;
+            color: hsl(198, 62%, 26%);
+            width: 100%;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;}
+            
+    
+       .destext{
+           text-align: center;
+           margin-bottom: 3%;
+           width: 70%;
+           
+    
+       }
+    
+       .phototext{
+        text-align: center;
+        margin-bottom: 3%;
+        width: 70%;
+        
+    
+    }
+    
+    .destext h3{
+        font-size: 25px;
+        margin-bottom: 3%;
+    }
+    .phototext h3{
+        font-size: 25px;
+        margin-bottom: 3%;
+    }
+
+    
+}
